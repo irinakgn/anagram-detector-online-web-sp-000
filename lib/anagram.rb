@@ -10,7 +10,7 @@ class Anagram
 
   def match(expression)
     puts 'wtf ' + @anna
-    puts expression
+    words = expression.split(/\W/)
     []
   end
 
