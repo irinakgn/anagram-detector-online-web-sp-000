@@ -9,7 +9,7 @@ class Anagram
   end
 
   def match(expression)
-    puts 'wtf ' + @anna
+    word = @anna.chars.sort.join
     words = expression.split(/\W/).map { |e| e.chars.sort.join  }
     words
   end
