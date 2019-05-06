@@ -8,5 +8,8 @@ class Anagram
     @anna = anna
   end
 
+  def match()
+  end
+
 
 end
