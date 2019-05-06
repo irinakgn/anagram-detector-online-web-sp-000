@@ -9,9 +9,14 @@ class Anagram
   end
 
   def match(expression)
+    f = []
     word = @anna.chars.sort.join
     words = expression.map { |e| e.chars.sort.join  }
-    words.find {|key, value| key == word}
+    words.each_with_index { |val,index|
+      if(val == word)
+        f << val
+      end
+    }
   end
 
 
