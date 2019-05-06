@@ -11,7 +11,7 @@ class Anagram
   def match(expression)
     word = @anna.chars.sort.join
     words = expression.map { |e| e.chars.sort.join  }
-    words.all?(word)
+    words.find {|key, value| value == word}
   end
 
 
