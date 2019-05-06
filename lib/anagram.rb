@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(expression)
+    puts 'wtf ' + @anna
     puts expression
     []
   end
