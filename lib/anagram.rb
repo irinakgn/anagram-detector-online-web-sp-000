@@ -12,7 +12,6 @@ class Anagram
     f = []
     word = @anna.chars.sort.join
     words = expression.map { |e| e.chars.sort.join  }
-    
   end
 
 
