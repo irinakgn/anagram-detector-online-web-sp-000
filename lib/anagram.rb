@@ -11,7 +11,7 @@ class Anagram
   def match(expression)
     puts 'wtf ' + @anna
     words = expression.split(/\W/)
-    []
+    words
   end
 
 
