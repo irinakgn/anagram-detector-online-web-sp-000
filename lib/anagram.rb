@@ -9,6 +9,7 @@ class Anagram
   end
 
   def match(expression)
+    puts.expression
     []
   end
 
