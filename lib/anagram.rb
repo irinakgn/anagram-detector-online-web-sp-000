@@ -10,7 +10,7 @@ class Anagram
 
   def match(expression)
     word = @anna.chars.sort.join
-    words = expression.split(/\W/).map { |e| e.chars.sort.join  }
+    words = expression.map { |e| e.chars.sort.join  }
     words
   end
 
